@@ -1,0 +1,8 @@
+/*Personalizando colores de bootstrap*/
+:root {
+  --bs-primary: #a60202;
+  --bs-primary-rgb: 166, 2, 2;
+}
+* {
+  font-family: sans-serif;
+}
