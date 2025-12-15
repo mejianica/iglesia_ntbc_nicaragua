@@ -18,3 +18,17 @@
   --bs-dropdown-link-active-bg: #5c0000;
   --bs-dropdown-link-active-color: #ffffff;
 }
+/*centrando menu deplegable*/
+/* MÓVIL: comportamiento normal */
+.nav-item.dropdown .dropdown-menu {
+  left: 0;
+  transform: none;
+}
+
+/* DESKTOP (md en adelante): centrado */
+@media (min-width: 768px) {
+  .nav-item.dropdown .dropdown-menu {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

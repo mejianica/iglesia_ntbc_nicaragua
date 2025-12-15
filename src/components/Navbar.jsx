@@ -40,13 +40,10 @@ const Navbar = () => {
           </NavLink>
 
           {/* MENÚ */}
-          <ul className="navbar-nav mb-2 mb-md-0">
+          <ul className="navbar-nav mb-2 mb-md-0 gap-0 gap-md-3">
             <li className="nav-item">
-              <NavLink to="/nosotros" className="nav-link text-white">
-                LIVE
-              </NavLink>
+              <NavLink className="nav-link text-white">INICIO</NavLink>
             </li>
-
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle text-white"
@@ -60,40 +57,52 @@ const Navbar = () => {
               <ul className="dropdown-menu">
                 <li>
                   <a className="dropdown-item" href="#">
-                    HOLA
+                    CREENCIAS
                   </a>
                 </li>
                 <li>
                   <a className="dropdown-item" href="#">
-                    PASTOR
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    ORACION
+                    CONOCE AL PASTOR
                   </a>
                 </li>
               </ul>
             </li>
 
-            <li className="nav-item">
-              <NavLink className="nav-link text-white">ESPAÑOL</NavLink>
+            <li className="nav-item dropdown">
+              <a
+                className="nav-link dropdown-toggle text-white"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                MINISTERIOS
+              </a>
+              <ul className="dropdown-menu">
+                <li>
+                  <a className="dropdown-item" href="#">
+                    HOMBRES
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
+                    MUJERES
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
+                    NIÑOS
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
+                    MISIONES
+                  </a>
+                </li>
+              </ul>
             </li>
-
             <li className="nav-item">
-              <NavLink className="nav-link text-white">MINISTRIES</NavLink>
-            </li>
-
-            <li className="nav-item">
-              <NavLink className="nav-link text-white">SCHOOL (DCS)</NavLink>
-            </li>
-
-            <li className="nav-item">
-              <NavLink className="nav-link text-white">GIVE</NavLink>
-            </li>
-
-            <li className="nav-item">
-              <NavLink className="nav-link text-white">PRAYER</NavLink>
+              <NavLink className="nav-link text-white">ESCUELA</NavLink>
             </li>
           </ul>
         </div>
