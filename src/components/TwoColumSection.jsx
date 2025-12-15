@@ -28,7 +28,7 @@ const TwoColumnSection = ({
             </h2>
 
             <p className="fs-3 mb-5 px-0 px-md-5 mx-0 mx-md-5 lh-1">{text}</p>
-            <i class="bi bi-calendar fs-1 text-white mb-3"></i>
+            <i className="bi bi-calendar fs-1 text-white mb-3"></i>
             <p className="text-center fs-5" style={{ whiteSpace: "pre-line" }}>
               {schedules}
             </p>
