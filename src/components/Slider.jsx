@@ -2,21 +2,8 @@ import React, { useEffect } from "react";
 import Image1 from "../assets/slider1.jpg";
 import Image2 from "../assets/slider2.jpg";
 import Image3 from "../assets/slider3.jpg";
-import { Carousel } from "bootstrap";
 
 const Slider = () => {
-  useEffect(() => {
-    const element = document.querySelector("#carouselExampleIndicators");
-
-    if (element) {
-      new Carousel(element, {
-        interval: 7000,
-        ride: "carousel",
-        pause: false,
-      });
-    }
-  }, []);
-
   return (
     <>
       <div
