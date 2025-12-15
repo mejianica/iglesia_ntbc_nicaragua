@@ -6,3 +6,15 @@
 * {
   font-family: sans-serif;
 }
+
+/* Dropdown Bootstrap */
+.dropdown-menu {
+  --bs-dropdown-bg: #a60202;
+  --bs-dropdown-link-color: #ffffff;
+
+  --bs-dropdown-link-hover-bg: #7e0101;
+  --bs-dropdown-link-hover-color: #ffffff;
+
+  --bs-dropdown-link-active-bg: #5c0000;
+  --bs-dropdown-link-active-color: #ffffff;
+}
