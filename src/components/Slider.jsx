@@ -1,16 +1,29 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Image1 from "../assets/slider1.jpg";
 import Image2 from "../assets/slider2.jpg";
 import Image3 from "../assets/slider3.jpg";
+import { Carousel } from "bootstrap";
 
 const Slider = () => {
+  useEffect(() => {
+    const element = document.querySelector("#carouselExampleIndicators");
+
+    if (element) {
+      new Carousel(element, {
+        interval: 7000,
+        ride: "carousel",
+        pause: false,
+      });
+    }
+  }, []);
+
   return (
     <>
       <div
         id="carouselExampleIndicators"
-        className="carousel slide"
+        className="carousel slide carousel-fade"
         data-bs-ride="carousel"
-        data-bs-interval="4000"
+        // data-bs-interval="4000"
       >
         <div className="carousel-indicators">
           <button
