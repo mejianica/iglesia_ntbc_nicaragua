@@ -25,6 +25,19 @@
   transform: none;
 }
 
+@media (max-width: 480px) {
+  #carouselExampleIndicators {
+    height: 50vh;
+    overflow: hidden;
+  }
+
+  #carouselExampleIndicators .carousel-inner,
+  #carouselExampleIndicators .carousel-item,
+  #carouselExampleIndicators .carousel-item img {
+    height: 100%;
+  }
+}
+
 /* DESKTOP (md en adelante): centrado */
 @media (min-width: 768px) {
   .nav-item.dropdown .dropdown-menu {
@@ -54,7 +67,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.45); /* ajusta la oscuridad */
+  background-color: rgba(0, 0, 0, 0.45);
   z-index: 1;
 }
 
