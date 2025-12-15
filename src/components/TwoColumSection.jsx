@@ -13,21 +13,21 @@ const TwoColumnSection = ({
     <section className={`container-fluid customColor  `}>
       <div className="container-fluid px-0 py-3 py-md-0">
         <div
-          className={`row align-items-center justify-content-center ${
+          className={`row  justify-content-center ${
             reverse ? "flex-row-reverse" : ""
           }`}
         >
           {/* Columna de texto */}
           <div className="col-12 col-xxl-6 text-center px-4  py-4 text-light">
             <h2
-              className={`fw-bold  mb-3 text-uppercase display-3 ${
+              className={`fw-bold  mb-5 text-uppercase display-4 ${
                 titleCenter ? "text-center" : ""
               }`}
             >
               {title}
             </h2>
 
-            <p className="fs-2 mb-4 px-0 px-md-5 mx-0 mx-md-5">{text}</p>
+            <p className="fs-3 mb-5 px-0 px-md-5 mx-0 mx-md-5 lh-1">{text}</p>
             <i class="bi bi-calendar fs-1 text-white mb-3"></i>
             <p className="text-center fs-5" style={{ whiteSpace: "pre-line" }}>
               {schedules}
@@ -36,7 +36,11 @@ const TwoColumnSection = ({
 
           {/* Columna de imagen */}
           <div className="col-12 col-xxl-6 text-center mt-4 mt-lg-0  px-0">
-            <img src={image} alt={title} className="img-fluid rounded-0 " />
+            <img
+              src={image}
+              alt={title}
+              className="img-fluid rounded-0 image-cover "
+            />
           </div>
         </div>
       </div>

@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "../components/Slider";
 import sliderImagesHome from "../assets/sliderImagesHome";
 import TwoColumnSection from "../components/TwoColumSection";
-import imageHome from "../assets/iglesia.jpg";
+import imageHome from "../assets/img.jpg";
 
 const Home = () => {
   return (
@@ -15,7 +15,7 @@ const Home = () => {
           </>
         }
         text={
-          "¡Únase a nosotros en inglés, español o criollo para el culto cada semana!"
+          "¡Únase a nosotros en inglés o español  para el culto cada semana!"
         }
         schedules={`
           CAMPUS DE DADE
