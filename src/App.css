@@ -32,3 +32,34 @@
     transform: translateX(-50%);
   }
 }
+
+/* CONTENEDOR DEL CAROUSEL */
+#carouselExampleIndicators {
+  max-height: 90dvh;
+  overflow: hidden;
+}
+
+/* ESTRUCTURA INTERNA */
+#carouselExampleIndicators .carousel-inner {
+  height: 100%;
+}
+
+/* ITEM */
+
+#carouselExampleIndicators .carousel-item {
+  position: relative;
+}
+
+#carouselExampleIndicators .carousel-item::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.45); /* ajusta la oscuridad */
+  z-index: 1;
+}
+
+#carouselExampleIndicators .carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
