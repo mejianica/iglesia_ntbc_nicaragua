@@ -11,7 +11,7 @@ const Home = () => {
       <TwoColumnSection
         title={
           <>
-            Únete a nosotros este <span className="text-primary">Domingo</span>
+            Únete a nosotros este <span className="text-custom ">Domingo</span>
           </>
         }
         text={
