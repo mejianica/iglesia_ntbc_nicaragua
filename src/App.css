@@ -92,3 +92,6 @@
   object-position: center;
   display: block;
 }
+.container-text {
+  max-width: 1000px;
+}
