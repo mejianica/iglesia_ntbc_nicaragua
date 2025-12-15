@@ -2,7 +2,11 @@
 :root {
   --bs-primary: #a60202;
   --bs-primary-rgb: 166, 2, 2;
+
+  --bs-secondary: #d3d4d9;
+  --bs-secondary-rgb: 211, 212, 217;
 }
+
 * {
   font-family: sans-serif;
 }
